@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/datasource-rest": "^6.0.1",
+    "@apollo/server": "^4.7.1",
+    "@nic-jennings/sql-datasource": "^0.0.7",
+    "datasource-sql": "^2.1.0",
+    "graphql": "^16.6.0",
+    "knex": "^2.4.2",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.1.3"
+  }
+}
