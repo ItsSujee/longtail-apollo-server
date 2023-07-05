@@ -24,6 +24,8 @@ const typeDefs = `#graphql
     route_name: String!
     start_bs_id: String!
     end_bs_id: String!
+    arrival_time: String!
+    mins_to_arrival: String!
   }
 `;
 

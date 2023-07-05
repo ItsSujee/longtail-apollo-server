@@ -11,7 +11,7 @@ const resolvers = {
       bus_route: async (parent, _, { dataSources }) => {
         return dataSources.ginapi.BusRoute(parent.bs_id);
       }
-    }
+    } 
   };
 
 export {resolvers}
